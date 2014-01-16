@@ -1,0 +1,268 @@
+﻿/*
+ * sooj css base
+ */
+body{
+	font-family:"Microsoft YaHei" , Arial, Helvetica, sans-serif;
+	font-size:12px;
+	/*	
+	overflow-y:scroll!important;
+	overflow-y:auto;
+	*/
+	overflow-y:scroll;
+}
+div .info , .error , .notice , .success {
+	border-radius:10px;
+}
+a{
+	 text-decoration:none;
+}
+#pre_header{
+	background:#fff;
+	color:#3f3f3f;
+	text-align:right;
+	border-bottom:1px dashed #cfcfcf;
+}
+#pre_header span{
+	margin:0 5px;
+}
+#pre_header .username{
+	color:#35a9d6; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+}
+#pre_header .separator{
+	color:#909090;
+}
+#pre_header a{
+	font-family:Pmingliu,verdana,arial,sans-serif;
+	color:#666;
+	text-decoration:none;
+}
+#pre_header a:hover{
+	color:#999;
+}
+#header{
+	width:100%;
+	height:30px;
+	padding:5px;
+	clear:both;
+}
+#header .title{
+	color:#999;
+	font-size:150%;
+	font-weight:bold;
+	float:left;
+}
+#header .ver{
+	font-size:70%;
+	color:#aaa;
+}
+
+/*
+ * 导航区
+ */
+#nav{background:#fff;margin-top:10px;float:left;}
+#nav ul{text-align:left;height:22px;}
+#nav ul li{margin:0px 8px;list-style:none;float:left;}
+#nav ul li a{
+	font-weight:bold;
+	font-size:100%;
+	color:#909090;
+	padding:2px 3px;
+	margin:0 3px;
+	text-decoration:none;
+	background:#fff;
+	border-radius:3px;
+}
+#nav .active{
+	 background:#ffffcc;
+}
+#nav a:hover{
+	 background:#ffffdd;
+
+}
+#nav .english{
+	 color:#fcb297;
+	 font-weight:100;
+}
+#footer{ 
+	width:100%; 
+	text-align:center; 
+	color:#76a1da; 
+	clear:both; 
+	border-top:1px solid #e0e0e0;
+	padding-top:2px;
+}
+#footer a{
+	color:#333;
+	text-decoration:none;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+#footer .run_time_info{
+	color:#b0b0b0;
+}
+#footer .join_us{
+	color:#5475ac;
+}
+#footer .report_bug{
+	color:#f3846c;
+}
+#footer .cms{
+	color:#333;
+	font-weight:bolder;
+}
+#footer .ver{
+	 background:#cce578;
+	 padding:0 2px 0 2px;
+	 color:#333;
+	 font-weight:bold;
+}
+
+#pager{
+	 color:#4c88cc;
+	 text-align:center;
+	 padding:25px 0 25px 0;
+}
+#pager a{
+	 color:#666;
+	 text-decoration:none;
+	 border-radius:5px;
+	 height:30px;
+	 width:30px;
+	 padding:5px;
+}
+#pager a:hover{
+	background:#ffeded;
+}
+
+.button{ 
+	color:#000;
+	padding:1px 10px 1px 10px;
+	background:#eee; 
+	border:1px #666 solid; 
+	margin:0 5px 0 5px;
+	font-size:80%;
+	border-radius:8px;
+}
+
+/* index page */
+#welcome h2{
+   	 color:#0cf;
+	 padding:5px; 
+	 border-bottom:1px dashed #999;
+	 text-align:center;
+	 font-weight:bolder;
+}
+
+/* faq */
+#faq table {
+	 opacity:0.9;
+	 color:#666;
+	 border-radius:3px;
+}
+#faq caption {
+	background:#fff;
+	color:#999;
+}
+#faq strong {
+	 color:#f99;
+	 font-weight:bolder;
+}
+#faq h4{
+	 text-align:center;
+	 color:#2f2f2f;
+	 font-weight:bolder;
+}
+#faq th{
+	 background:#b8b8b8;
+	 color:#fff;
+}
+#faq td{
+	 background:#eee;
+	 border-bottom:1px dashed #777;
+}
+
+/* plugins */
+.plugins{
+	 background:fff;
+	 opacity:0.90;
+	 border-radius:5px;
+}
+.plugins caption{
+	 text-align:center;
+	 background:#fff;
+	 font-weight:bold;
+}
+.plugins td, th{
+	 color:#666;
+	 text-align:center;
+}
+/*
+ *排名前十
+ */
+#rank_list_top_10{
+	 border:0px solid #a8a8a8;
+	 border-radius:5px;
+	 background:#eee;
+}
+#rank_list_top_10 td{
+	 background:#eee;
+	 border-bottom:1px dashed #a8a8a8;
+}
+#rank_list_top_10 th{
+	 color:#fff;
+	 background:#c3c3c3;
+}
+
+/*
+ *最新比赛
+ */
+#last_contest{
+	 border:0px solid #a8a8a8;
+	 border-radius:5px;
+	 background:#eee;
+}
+#last_contest th{
+	 color:#fff;
+	 background:#c3c3c3;
+}
+#last_contest td{
+	 background:#eee;
+	 border-bottom:1px dashed #a8a8a8;
+}
+#last_contest a{
+	 color:#6090c0;
+	 text-decoration:none;
+}
+#last_contest a:hover{
+	 color:#606060;
+}
+#last_contest .pending{
+	 color:#096;
+}
+
+/*
+ * 圆角
+ */
+.top_left_radius{
+	border-top-left-radius:3px;
+}
+.top_right_radius{
+	border-top-right-radius:3px;
+}
+
+#pager{
+	 color:#999;
+}
+#pager a{
+	 font-weight:900;
+	 background:#aaa;
+	 padding:3px;
+	 color:#fff;
+}
+#pager a:hover{
+	background:#888;
+	color:#fff;
+}

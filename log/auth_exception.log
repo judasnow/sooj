@@ -1,0 +1,358 @@
+Apr 20 02:00:56  [info] 用户名或密码错误
+Apr 20 02:53:30  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}
+Apr 20 03:36:09  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}from ipadd:127.0.0.1
+Apr 20 05:59:34  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Apr 22 16:39:44  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Apr 22 16:39:49  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 11 13:43:23  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 13 11:44:23  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 13 11:46:11  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 13 11:46:25  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 01:51:11  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 01:53:32  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 01:53:44  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 02:10:08  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 06:45:56  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 07:12:55  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 07:28:18  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:83
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 18 07:53:17  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 24 00:19:02  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 24 02:17:19  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 24 02:17:23  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 27 13:24:12  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:24:14  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:24:17  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:24:25  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:24:28  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:10  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:12  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(55): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_do_login()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_do_login')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_do_login')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_do_login')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_do_login')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_do_login')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:12  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:13  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(55): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_do_login()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_do_login')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_do_login')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_do_login')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_do_login')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_do_login')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:14  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:15  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(55): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_do_login()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_do_login')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_do_login')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_do_login')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_do_login')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_do_login')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:25:15  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(79): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:30:18  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(55): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_do_login()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_do_login')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_do_login')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_do_login')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_do_login')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_do_login')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(80): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:30:19  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(69): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(80): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:30:35  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(55): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_do_login()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_do_login')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_do_login')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_do_login')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_do_login')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_do_login')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(80): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:30:35  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(69): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(80): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:31:41  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(55): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_do_login()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_do_login')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_do_login')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_do_login')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_do_login')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_do_login')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(80): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:31:42  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(69): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(80): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:32:00  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(56): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_logou...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_logou...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_logou...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_logou...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_logou...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(67): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:33:20  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(58): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_login_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_login...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_login...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_login...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_login...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_login...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(69): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 27 13:33:21  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(58): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_login_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_login...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_login...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_login...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_login...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_login...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(69): SimpleTestCase->run(Object(HtmlReporter))
+#8 {main}[from ipadd]127.0.0.1
+May 28 00:44:34  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 28 04:35:32  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+May 30 07:47:04  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Jun 04 11:42:32  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(56): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_login_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_login...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_login...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_login...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_login...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_login...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(68): SimpleTestCase->run(Object(HtmlReporter))
+#8 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(391): include_once('D:\Program File...')
+#9 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(569): SimpleFileLoader->load('D:\Program File...')
+#10 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(557): TestSuite->addFile('D:\Program File...')
+#11 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\run_all_test.php(19): TestSuite->addTestFile('D:\Program File...')
+#12 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\run_all_test.php(11): run_all_test->add_test_file('D:\Program File...')
+#13 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\run_all_test.php(27): run_all_test->__construct()
+#14 {main}[from ipadd]172.17.0.45
+Jun 04 11:42:37  [info] exception 'AuthException' with message '用户已经登录' in D:\Program Files\EasyPHP 3.0\www\sooj\include\class\user_auth_process.class.php:52
+Stack trace:
+#0 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\test_class_user_auth_process.php(56): user_auth_process->do_login()
+#1 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(68): test_class_user_auth_process->test_user_login_logout()
+#2 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleInvoker->invoke('test_user_login...')
+#3 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\errors.php(49): SimpleInvokerDecorator->invoke('test_user_login...')
+#4 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\invoker.php(126): SimpleErrorTrappingInvoker->invoke('test_user_login...')
+#5 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\exceptions.php(43): SimpleInvokerDecorator->invoke('test_user_login...')
+#6 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(143): SimpleExceptionTrappingInvoker->invoke('test_user_login...')
+#7 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(595): SimpleTestCase->run(Object(HtmlReporter))
+#8 D:\Program Files\EasyPHP 3.0\www\sooj\test\simpletest\test_case.php(598): TestSuite->run(Object(HtmlReporter))
+#9 D:\Program Files\EasyPHP 3.0\www\sooj\test\test_class\run_all_test.php(28): TestSuite->run(Object(HtmlReporter))
+#10 {main}[from ipadd]172.17.0.45
+Aug 08 07:32:57  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Aug 08 07:52:12  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Aug 09 02:44:19  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Aug 10 00:44:55  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Jun 13 06:47:35  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Jun 15 04:58:26  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Jun 16 13:20:14  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Jun 16 15:48:34  [info] exception 'AuthException' with message '用户名或密码错误' in C:\Users\lenovo\programfiles\EasyPHP\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1
+Jun 17 13:38:34  [info] exception 'AuthException' with message '用户名或密码错误' in D:\Program Files\EasyPHP 3.0\www\sooj\controller\account\do_login.php:84
+Stack trace:
+#0 {main}[from ipadd]127.0.0.1

@@ -1,0 +1,39 @@
+#ranklist{
+	 height:600px;
+}
+#ranklist caption{
+	 background:#fff;
+	 text-align:center;
+	 font-size:90%;
+	 font-weight:bold;
+}
+#ranklist tr{
+	 height:30px;
+}
+#ranklist th{
+	 border-bottom:1px solid #dde;
+}
+#ranklist td{
+	 height:30px;
+	 text-align:center;
+	 background:#fff;
+	 border-bottom:1px solid #eee;
+}
+#ranklist .thead{
+	 font-weight:bold;
+	 background:#eef;
+	 color:#999;
+}
+#ranklist .rank{
+	 color:#900;
+}
+#ranklist .one{
+	 font-size:130%;
+	 color:#f99;
+	 font-weight:bold;
+}
+#ranklist .nick{
+	 font-weight:100;
+	 color:#999;
+}
+

@@ -1,0 +1,94 @@
+﻿#problem_detail{
+	 margin-bottom:20px;
+}
+#problem_detail .problem_title{
+	 color:#069;
+	 text-align:center;
+	 font-weight:100;
+}
+#problem_detail table{
+	 border:1px dotted #c2e1f3;
+	 border-radius:5px;
+	 padding:2px;
+}
+#problem_detail th{
+	 background:#c2e1f3;
+	 color:#444;
+	 font-weight:100;
+}
+#problem_detail td{
+	 background:#fff;
+	 text-align:center;
+	 color:#999;
+}
+#problem_detail caption{
+	 background:#fff;
+	 color:#969696;
+}
+#problem_detail fieldset{
+	 border:0;
+}
+#problem_detail .submit{
+	 text-align:center;
+}
+#problem_detail .submit a{
+	 border:0;
+	 background:#803c5e;
+	 font-size:110%;
+	 color:#fff;
+	 text-decoration:none;
+}
+#problem_detail .submit a:hover{
+	 background:#914d6f;
+}
+#problem_detail pre{
+	 text-align:left;
+}
+
+/*题目列表样式*/
+#problem_list table{
+	padding:1px;
+}
+#problem_list caption{
+	background:#fff;
+	color:#969696;
+}
+#problem_list th{
+	background:#c2e1f3;
+	color:#666;
+	text-align:center;
+}
+#problem_list td{
+	 background:#fff;
+	 border-bottom:1px dotted #ddd;
+	 text-align:center;
+}
+.border-left{
+	border-left:0px solid #66a3c2;
+}
+.border-right{
+	border-right:1px solid #e0e0e0;
+}
+/*search*/
+#problem_search{
+	text-align:center;
+}
+#problem_search input{
+	color:#666;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	padding:2px;
+}
+#problem_search label{
+	 font-weight:100;
+	 color:#999;
+}
+
+#spec_info{
+	 color:#f99;
+	 background:#ffe4cf;
+	 padding:5px;
+	 border-radius:5px;
+}

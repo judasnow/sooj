@@ -1,0 +1,58 @@
+#ranklist{
+	 height:720px;
+}
+#ranklist caption{
+	 background:#fff;
+	 font-size:130%;
+	 color:#666146;
+	 border-bottom:1px solid #eee;
+}
+#ranklist tr{
+	 height:30px;
+}
+#ranklist th{
+	padding:0;
+}
+#ranklist td{
+	 height:30px;
+	 text-align:center;
+	 background:#fff;
+	 border-bottom:1px dashed #cfcfcf;
+}
+#ranklist .thead{
+	 font-weight:border;
+	 background:#e1dbc8;
+	 color:#bcb9aa;
+	 border-bottom:1px dashed #a19c88;
+}
+#ranklist .rank{
+	 color:#900;
+}
+#ranklist .one{
+	 font-size:130%;
+	 color:#f99;
+	 font-weight:bold;
+}
+#ranklist .nick{
+	 font-weight:bolder;
+	 color:#666;
+}
+#ranklist .head_img{
+	
+}
+#ranklist img{
+	 border-radius:5px;
+}
+#ranklist .head_img_div{
+	 height:64px;
+	 width:64px;
+	 overflow:hidden;
+	 padding:5px;
+}
+
+#pager a{
+	 color:#fff;
+}
+#pager a:hover{
+	 color:#fff;
+}

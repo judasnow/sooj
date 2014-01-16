@@ -1,0 +1,344 @@
+body {
+font-size:13px;
+}
+#manager_login fieldset{
+margin-top:100px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-webkit-box-shadow:0 0 10px black;
+-moz-box-shadow:0 0 10px black;
+padding:10px;
+background:#eee;
+opacity:0.65;
+border:4px solid #999;
+}
+#manager_login h3{
+text-align:center;	 
+color:#333;
+}
+
+#header {
+padding:10px;
+height:auto;
+background:#deebf7;
+font-size:110%;
+margin-bottom:10px;
+border-bottom:2px solid #ddd;
+}
+
+#header span{
+margin-left:10px;
+}
+
+#header .title{
+color:#666;
+font-weight:bold;
+background:#cddae6;
+padding:5px;
+border-radius:5px;
+}
+
+#header .staff_name{
+color:#666;
+}
+
+#header .func a{
+padding:5px;
+background:#fbb;
+border-radius:10px;
+color:#fff;
+text-decoration:none;
+}
+
+#header .func a:hover{
+background:#fcc;
+} 
+
+caption{
+background:#fff;
+color:#999;
+}
+
+#nav {
+display:inline;
+}
+
+#nav a{
+padding:5px;
+background:#cee3f8;
+border-radius:10px;
+color:#fff;
+text-decoration:none;
+}
+
+#nav a:hover{
+background:#add2e7;
+}
+
+#nav .back_index{
+background:#999;
+}
+
+#nav .back_index:hover{
+background:#aaa;
+}
+
+#nav .active{
+background:#9ee2ff;
+}
+
+#problem_manager{
+	 font-size:90%;
+}
+
+#problem_manager a{
+	 margin-left:2px;
+	 font-weight:100;
+	 font-size:90%;
+	 padding:3px;
+	 border-radius:10px;
+	 color:#fff;
+	 background:#f66;
+	 text-decoration:none;
+}
+
+#problem_manager a:hover{
+	 background:#f99;
+	 text-decoration:none;
+}
+
+#problem_manager th{
+	text-align:center;
+	background:#dee;
+	color:#4f6b72;
+	border-bottom:1px solid #C1DAD7;
+    	letter-spacing: 2px;
+	padding: 1px 1px 1px 2px;
+	font-weight:lighter;
+}
+
+#problem_manager td{
+	text-align:center;
+	border-bottom:1px dotted #ddd;
+}
+
+#problem_test_case_info {
+background:#ebf7de;
+padding:5px;
+border-radius:5px;
+}
+
+#problem_test_case_info h4{
+font-size:110%;
+color:#fff;
+font-weight:bold;
+background:#096;
+padding:5px;
+width:100px;
+text-align:center;
+border-radius:10px;
+}
+
+#problem_test_case_info textarea{
+height:50px;
+width:90%;
+}
+
+#problem_test_case_info label{
+color:#464646;
+}
+
+#problem_test_case_info p{
+padding:5px;
+background:#dae6cd;
+border:1px dotted #c9d5bc;
+border-radius:5px;
+}
+
+#problem_info {
+border-radius:5px;
+background:#deebf7;
+padding:5px;
+}
+
+#problem_info h4{
+font-size:110%;
+color:#fff;
+font-weight:bold;
+background:#68b7e2;
+padding:5px;
+width:100px;
+text-align:center;
+border-radius:10px;
+}
+
+#problem_info label{
+color:#464646;
+}
+
+#problem_info textarea{
+height:50px;
+width:90%;
+}
+
+#problem_detail_info{
+border-radius:5px;
+background:#ffdfdf;
+padding:5px;
+}
+
+#problem_detail_info label{
+color:#464646;
+}
+
+#problem_detail_info h4{
+font-size:110%;
+color:#fff;
+font-weight:bold;
+background:#f99;
+padding:5px;
+width:100px;
+text-align:center;
+border-radius:10px;
+}
+
+#control{
+padding:5px;
+margin-bottom:5px;
+}
+
+#control input{
+color:#333;
+}
+
+.button {
+text-decoration:none;
+display: inline-block;
+cursor:pointer;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+background:#444;
+padding:5px;
+color:#fff;
+background-image:url('/sooj/cms/views/picture/button_bg.png');
+}
+.button:hover {
+    opacity:0.8;
+    color:#fff;
+}
+
+.success, .error{
+border-radius:10px;
+width:50%;
+}
+
+#contest_manager{
+font-size:90%;
+}
+#contest_manager a{
+	 margin-left:2px;
+	 font-weight:100;
+	 font-size:90%;
+	 padding:3px;
+	 border-radius:10px;
+	 color:#fff;
+	 background:#66f;
+	 text-decoration:none;
+}
+
+#contest_manager a:hover{
+	 background:#99f;
+	 text-decoration:none;
+}
+
+#contest_info {
+background:#ebf7de;
+padding:5px;
+border-radius:5px;
+}
+
+#contest_info h4{
+font-size:110%;
+color:#fff;
+font-weight:bold;
+background:#096;
+padding:5px;
+width:100px;
+text-align:center;
+border-radius:10px;
+}
+
+#contest_info textarea{
+height:50px;
+width:90%;
+}
+
+#contest_info label{
+color:#464646;
+}
+
+#contest_info p{
+padding:5px;
+background:#dae6cd;
+border:1px dotted #c9d5bc;
+border-radius:5px;
+}
+
+#contest_problems {
+background:#e5effe;
+padding:5px;
+border-radius:5px;
+}
+
+#contest_problems h4{
+font-size:110%;
+color:#fff;
+font-weight:bold;
+background:#069;
+padding:5px;
+width:100px;
+text-align:center;
+border-radius:10px;
+}
+
+#contest_problems textarea{
+height:50px;
+width:90%;
+}
+
+#contest_problems label{
+color:#464646;
+}
+
+#contest_problems p{
+padding:5px;
+background:#d5deed;
+border:1px dotted #c9d5bc;
+border-radius:5px;
+}
+
+#user_manager{
+font-size:90%;
+}
+
+#user_manager a{
+	 margin-left:2px;
+	 font-weight:100;
+	 font-size:90%;
+	 padding:3px;
+	 border-radius:10px;
+	 color:#fff;
+	 background:#0c7823;
+	 text-decoration:none;
+}
+
+#user_manager a:hover{
+	 background:#1d8934;
+	 text-decoration:none;
+}
+
+#cms_login .error{
+	 width:92%;
+}
+
+

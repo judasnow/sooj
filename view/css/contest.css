@@ -1,0 +1,120 @@
+#contest_detail{}
+#contest_detail h2{ 
+	 text-align:center;
+	 color:#444;
+}
+#contest_detail table{}
+#contest_detail caption{ 
+	 background:#fff;
+	 color:#999;
+}
+#contest_detail th{
+	 color:#666;
+}
+#contest_detail td{
+	 text-align:center;
+	 background:#fff;
+	 border-bottom:1px dotted #ddd;
+}
+.center{
+	 text-align:center;
+}
+.start_time{
+	 color:#32a81e;
+	 font-weight:bold;
+}
+.end_time{
+	 color:#f99;
+	 font-weight:bold;
+}
+#contest_detail span{
+	 margin:2px;
+	 font-size:110%;
+}
+#contest_detail p{
+	 background:#e0f2f8;
+	 padding:15px;
+	 color:#333;
+	 border-radius:3px;
+}
+#contest_detail .status{
+	 background:#c2e6f2;
+	 color:#333;
+	 padding:8px;
+	 margin-top:10px;
+	 border-radius:5px;
+	 display:block;
+	 border:2px solid #6f6f6f;
+}
+#contest_detail .oper a{
+	 padding:3px;
+	 background:#e9f4e9;
+	 color:#0c7823;
+	 text-decoration:none;
+	 border:1px solid #999;
+	 border-radius:5px;
+}
+#contest_detail .oper a:hover{
+	 background:#d8e3d8;
+}
+#contest_detail .oper b{
+	 margin-right:5px;
+	 background:#d8e3d8;
+	 padding:3px;
+	 border-radius:5px;
+	 color:#444;
+}
+#contest_detail .auth_code{
+	 font-size:90%;
+	 color:#32a81e;
+}
+#summary{
+
+}
+#summary_content pre{
+	overflow:auto;
+	padding:5px;
+	background:#eee;
+	color:#444;
+	border-radius:5px;
+}
+#summary a{
+	 color:#069;
+	 padding:2px;
+	 border-radius:5px;
+	 text-decoration:none;
+}
+
+#contest_result_list caption{
+	 background:#fff;
+}
+#contest_result_list th{
+	 background:#fff;
+	 color:#666;
+	 text-align:center;
+}
+#contest_result_list td{
+	 text-align:center;
+	 background:#fff;
+}
+#contest_result_list .border_bottom{
+	 border-bottom:1px dashed #333;
+}
+
+#contest_list table{
+	padding:1px;
+}
+#contest_list caption{
+	background:#fff;
+	color:#969696;
+}
+#contest_list th{
+	background:#c2e1f3;
+	color:#666;
+	text-align:center;
+}
+#contest_list td{
+	 background:#fff;
+	 border-bottom:1px dotted #ddd;
+	 text-align:center;
+}

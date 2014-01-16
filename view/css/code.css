@@ -1,0 +1,237 @@
+#code_submit{
+	 margin-bottom:20px;
+	 padding-bottom:20px;
+}
+#code_submit .helight{
+	 color:#333;
+	 font-weight:bold;
+}
+#code_submit .control{
+	 margin-bottom:3px;
+}
+#code_submit .control label{
+	 vertical-align:middle;
+}
+#code_submit .help{
+	 width:100%;
+	 color:#666;
+	 text-align:center;
+}
+#code_submit .help span a{
+	 border:1px solid #aaa;
+	 border-radius:5px; 
+	 color:#666;
+	 padding:5px;
+	 background:#dae6ff;
+	 text-decoration:none;
+}
+#code_submit .help span{
+	 margin:2px;
+}
+#code_submit .help span a:hover{
+	background:#cfdbdd;
+}
+#code_submit textarea{
+	 border:0;
+	 border:1px dotted #333;
+	 font-size:120%;
+	 width:100%;
+	 height:430px;
+	 background:#fff;
+	 color:#999;
+	 font-family:'Ubuntu';
+}
+#code_submit select{
+	 border:1px #9f9f9f solid;
+	 background:#666;
+	 color:#fff;
+	 font-weight:bold;
+	 font-family:'Ubuntu';
+}
+
+#display_result{
+  	 position:absolute;
+	 left:35%;
+  	 top:30%;
+	 word-break:break-all;
+	 background:#eee;
+	 border:3px solid #333;
+	 opacity:0.70;
+    	 filter: alpha(opacity=86);
+    	 filter: alpha(opacity=86);  
+    	 zoom: 1;   
+}
+#display_result span{
+	 border-radius:5px;
+	 color:#333;
+	 font-weight:bold;
+	 font-size:70%;
+	 padding:5px;
+	 background:#aaa;
+}
+#display_result p{
+	 padding:5px;
+	 font-size:110%;
+	 color:#333;
+}
+#display_result fieldset{
+	 border:1px solid #666;
+}
+
+#main {color:#666}
+textarea{border:1px solid #7f9db9; font-size:9pt; width:430px; color:#000}
+.grey{color:#999}
+#msg1,#msg2,#msg3,#msg4{ display:none }
+#ol{position:absolute; z-index:1; padding:0px; margin:0px; border:0px; background:#fff;width:23px; text-align:left; }
+#li{background:#eee; height:160px; overflow:hidden; width:32px; border-right:0; line-height:20px; margin:0px; padding:0px;text-align:center}
+#c2{font-family:Arial, Helvetica, sans-serif; height:160px;  margin:0px;  width:416px; padding:0 0 0 35px; overflow-x: hidden; line-height:20px;}
+
+#control_overlay {  
+    background-color:#000;  
+} 
+ 
+.modal {  
+    background-color:#fff;  
+    padding:10px;  
+    border:1px solid #333;  
+} 
+ 
+.tooltip {  
+    border:1px solid #000;  
+    background-color:#fff;  
+    height:25px;  
+    width:200px;  
+    font-family:"Lucida Grande",Verdana;  
+    font-size:10px;  
+    color:#333;  
+} 
+ 
+.simple_window{  
+    width:400px;  
+    height:250px;  
+    border:2px solid #333;  
+    -moz-border-radius:3px;  
+    -webkit-border-radius:3px;  
+    padding:10px;  
+    text-align:left;  
+    overflow-y:scroll;
+    background:#eee;
+    opacity:0.70;
+    filter: alpha(opacity=86);
+    filter: alpha(opacity=86);  
+    zoom: 1;    
+}
+
+.ajax_problem_detail{
+    width:600px;  
+    height:550px;  
+}
+ 
+.window {  
+    background-image:url("/stylesheets/window_background.png");  
+    background-position:top left;  
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px;  
+    padding:10px;  
+    font-family:"Lucida Grande",Verdana;  
+    font-size:13px;  
+    font-weight:bold;  
+    color:#fff;  
+    text-align:center;  
+    min-width:150px;  
+    min-height:100px;  
+} 
+ 
+.window .window_contents {  
+    margin-top:10px;  
+    width:100%;  
+    height:100%;      
+} 
+ 
+.window .window_header {  
+    text-align:center;  
+} 
+ 
+.window .window_title {  
+    margin-top:-7px;  
+    margin-bottom:7px;  
+    font-size:11px;  
+    cursor:move;  
+} 
+ 
+.window .window_close {  
+    display:block;  
+    position:absolute;  
+    top:4px;  
+    left:5px;  
+    height:13px;  
+    width:13px;  
+    background-image:url("/stylesheets/window_close.gif");  
+    cursor:pointer;  
+    cursor:hand;  
+}
+
+.contest_result_list caption{
+	 background:#eee;
+}
+.contest_result_list th{
+	 background:#ddd;
+	 color:#666;
+	 text-align:center;
+}
+.contest_result_list td{
+	 text-align:center;
+	 background:#eee;
+	 border-bottom:1px dotted #ddd;
+}
+
+#view_code{
+}
+
+#view_code p{
+	 background:#e5e5e5;
+	 padding:10px;
+	 color:#87b2e3;
+	 border-radius:5px;
+}
+
+#view_code .lang{
+	 margin:10px;
+}
+
+#view_code .user_id{
+	 margin:10px;
+}
+
+#view_code .code_no{
+	 margin:10px;
+}
+
+#view_code pre{
+	background:#eee;
+	font-family: Trebuchet MS;
+}
+
+#view_code a{
+	 padding:5px;
+	 background:#d3dce3;
+	 color:#333;
+	 border-radius:5px;
+}
+
+#view_code a:hover{
+	 background:#ebf8a4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

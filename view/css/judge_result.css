@@ -1,0 +1,51 @@
+#judge_result{}
+#judge_result table{
+	 border-collapse:collapse;
+}
+#judge_result th{ 
+	 background:#c2e1f3;
+	 color:#666;
+}
+#judge_result caption{
+	 text-align:left;
+	 background:#fff;
+	 color:#999;
+}
+#judge_result td{
+	 background:#fff;
+ 	 border-bottom:1px solid #dfdfdf;
+	 text-align:center;
+}
+#judge_result .ac{
+	 font-weight:bold;
+	 color:#0d0;
+}
+#judge_result .ce{
+	 font-weight:bold;
+	 color:#f33;
+}
+#judge_result .ve{
+	 font-weight:bold;
+	 color:#f99;
+}
+.top_left_radius{
+	 border-top-left-radius:3px;
+}
+.top_right_radius{
+	 border-top-right-radius:3px;
+}
+#judge_result a{
+	 color:#069;
+	 text-decoration:none;
+}
+#judge_result a:hover{
+	 color:#f30;
+	 text-decoration:none;
+}
+#pager a{
+	 color:#fff;
+}
+#pager a:hover{
+	 color:#fff;
+}
+

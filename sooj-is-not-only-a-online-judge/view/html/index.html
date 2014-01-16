@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="zh-CN" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="rating" content="general" />
+<meta name="author" content="" />
+<meta name="copyright" content="" />
+<meta name="generator" content="" />
+
+<!-- Framework CSS -->
+<link rel="stylesheet" href="/sooj/view/css/lib/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/sooj/view/css/lib/blueprint/print.css" type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="../blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="shortcut icon" href="/sooj/view/template/favicon.ico" />
+<link rel="stylesheet" href="/sooj/view/css/sooj_base.css" type="text/css" media="screen, projection">
+
+<title>首页</title>
+</head>
+<!--珍爱生命，远离IE6-->
+<!--[if lte IE 6]>
+<script type="text/javascript">
+if ($.cookie("fnie6n") == null) {
+alert('Your browser is no longer supported.\nPlease upgrade to a modern browser.');
+$.cookie("fnie6n","x");
+}
+</script>
+<div style="color:#999;">	
+<b>珍爱生命，远离IE6！！</b>我们推荐使用下列更先进的浏览器进行web访问:
+<a href='http://www.google.co`m/chrome' target='_blank'>Chrome</a>
+<a href='http://www.opera.com/' target='_blank'>Opera</a>
+<a href='http://www.firefox.com' target='_blank'>Firefox</a>
+<a href='http://www.browserforthebetter.com/download.html' target='_blank'>IE8</a>
+</div>
+<![endif]-->
+
+<body>
+<!--页顶元素-->
+<div id="pre_header">
+	 <span class="username"><a href="/sooj/controller/account/reg.php">注册</a></span>
+	 <span class="separator">|<span>
+ 	 <span class="username"><a href="/sooj/controller/account/login.php">登录</a></span>
+</div>
+
+<div class="container">
+
+	 <!--页首元素-->	 
+	 <div id="header">
+	 	 <div class="title">
+	 	 	 <img src="/sooj/view/picture/logo6.png">
+	 	 </div>
+
+	 	 <div class="ver">	 
+	 	 </div>
+	 </div>
+
+	 <!--导航元素-->	 
+	 <div id="nav">
+ 	 	 <ul>
+			 <li>
+			 <a href="#" class="active">首页</a>
+			 <a href="#" {? if $active eq "home" ?}class="active"{? /if ?}>在线评测</a>
+			 <a href="#" {? if $active eq "home" ?}class="active"{? /if ?}>题库浏览</a>
+			 <a href="#" {? if $active eq "home" ?}class="active"{? /if ?}>竞赛</a>
+			 <a href="#" {? if $active eq "home" ?}class="active"{? /if ?}>论坛</a>
+			 <a href="#" {? if $active eq "home" ?}class="active"{? /if ?}>用户排名</a>
+			 </li>
+	 	 </ul>
+	 </div>
+
+	  <div class="span-12">
+
+<!--登录模块-->
+<form id="login" action="/classmate/controller/account/do_login.php" method="post"> 
+
+<fieldset> 
+<legend>用户登录</legend>
+	 
+	 {?*若登录是有错误信息*?}
+	 {?include file=#mod_path#|cat:'mod_message.tpl' message=$auth_fail_message?}
+
+	 <p> 
+	 	 <label for="email">邮箱地址</label><br> 
+	 	 <input type="text" class="text" id="email" name="email" value=""> 
+	 </p>
+
+	 <p> 
+	 	 <label for="password">密码</label><br> 
+	 	 <input type="password" class="text" id="password" name="password" value=""> 
+	 </p> 
+
+	 <p>
+	 	 <input type="submit" value="登录"> 
+	 	 <input type="reset" value="重设">
+	 </p>
+
+	 <div class="span-5"> 	 
+	 	 <a href="reg.php">还不是会员?</a> 
+	 </div>
+
+</fieldset>
+</form>
+
+</div>
+ </div>
+
+
+
+<!--页脚元素-->
+<div id="footer">
+	&copy;
+	Sooj Team
+ 	2011
+	 <a href="/sooj/view/html/join_us.html">欢迎加入我们</a>
+</div>
+
+</body>
+</html>

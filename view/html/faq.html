@@ -1,0 +1,302 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Q</title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+.answer	{
+	font-size: 16px;
+	color: #000000;
+	background-color: #FFCCFF;
+	font-family: "宋体";
+}
+-->
+</style>
+</head>
+
+<body>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: green">
+Q</span><span lang="EN-US" style="font-size: 12.0pt">: Where are the input and 
+the output?</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: red">A</span><span lang="EN-US" style="font-size: 12.0pt">: 
+Your program shall always read input from stdin (Standard Input) and write 
+output to stdout (Standard Output). For example, you can use 'scanf' in C or 'cin' 
+in C++ to read from stdin, and use 'printf' in C or 'cout' in C++ to write to 
+stdout.</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt">User programs 
+are not allowed to open and read from/write to files. You will get a ‘<span style="color: green">Runtime 
+Error</span>’ or a ‘<span style="color: green">Wrong Answer</span>’ if you try 
+to do so. </span></p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt">Here is a 
+sample solution for problem 1000 using C++/G++:</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">#include &lt;iostream&gt;</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;</span><span style="font-size: 12.0pt; color: #20B000">using 
+namespace std;</span></p>
+<p class="MsoNormal">
+<font size="3" color="#20B000">int </font>
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000"> &nbsp;main()</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">{</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp;&nbsp; int a,b;</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp;&nbsp; cin &gt;&gt; a &gt;&gt; b;</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp;&nbsp; cout &lt;&lt; a+b &lt;&lt; 
+endl;</span></p>
+<p class="MsoNormal">
+<span lang="en-us"><font size="3" color="#20B000">&nbsp;&nbsp;&nbsp; return 0;</font></span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">}</span></p>
+<p class="MsoNormal"><font color="#FF0000" size="5">It's important that the 
+return type of main() must be int when you use G++/GCC,or you may get </font>
+<font size="5" color="#008080">compile error</font><font color="#FF0000" size="5">.</font></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt">Here is a 
+sample solution for problem 1000 using C/GCC:</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">#include &lt;stdio.h&gt;</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;</span><span style="font-size: 12.0pt; color: #20B000">int </span>
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">main()</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">{</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp;&nbsp; int a,b;</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp;&nbsp; scanf(&quot;%d 
+%d&quot;,&amp;a, &amp;b);</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp;&nbsp; printf(&quot;%d\n&quot;,a+b);</span></p>
+<p class="MsoNormal">
+<span lang="en-us"><font size="3" color="#20B000">&nbsp;&nbsp;&nbsp; return 0;</font></span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">}</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt">Here is a 
+sample solution for problem 1000 using PASCAL:</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">program 
+p1000(Input,Output); </span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">var </span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp; a,b:Integer;
+</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">begin </span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp; Readln(a,b);
+</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">&nbsp;&nbsp; Writeln(a+b);
+</span></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; color: #20B000">end.</span></p>
+<p class="MsoNormal">
+　</p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt">Here is a 
+sample solution for problem 1000 using  </span><span style="font-size: 12.0pt">
+JAVA</span><span lang="EN-US" style="font-size: 12.0pt">:</span></p>
+<p class="MsoNormal">
+<font color="#FF0000" size="5">Now java compiler is jdk 1.5, next is program for 
+1000</font></p>
+<p class="MsoNormal">
+<font color="#20B000">import java.io.*;<br>
+import java.util.*;<br>
+public class Main<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public static 
+void main(String args[]) throws Exception<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Scanner cin=new Scanner(System.in);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+int a=cin.nextInt(),b=cin.nextInt();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+System.out.println(a+b);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+}</font></p>
+<p class="MsoNormal">
+　</p>
+<p class="MsoNormal">
+　</p>
+<p class="MsoNormal">
+<font color="#FF0000">Old program for jdk 1.4</font></p>
+<p class="MsoNormal">
+　</p>
+<p class="MsoNormal"><font color="#20B000">import java.io.*;<br>
+import java.util.*;<br>
+<br>
+public class Main<br>
+{<br>
+&nbsp;&nbsp;&nbsp; public static void main (String args[]) throws Exception<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BufferedReader stdin = <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new 
+BufferedReader(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+new InputStreamReader(System.in));<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String line = stdin.readLine();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; StringTokenizer st = new 
+StringTokenizer(line);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int a = Integer.parseInt(st.nextToken());<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int b = Integer.parseInt(st.nextToken());<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(a+b);<br>
+&nbsp;&nbsp;&nbsp; }<br>
+}</font></p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: green">
+Q</span><span lang="EN-US" style="font-size: 12.0pt">:  </span>
+<span style="font-size: 12.0pt">How to submit java program</span><span lang="EN-US" style="font-size: 12.0pt">?</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: red">A</span><span lang="EN-US" style="font-size: 12.0pt">: 
+The Java programs submitted must be in a single source code (not .class) file.&nbsp; 
+They must read and write the standard input/output, as the other lang</span><span style="font-size: 12.0pt">uages</span><span lang="EN-US" style="font-size: 12.0pt">. 
+All programs must begin in a static main method in a Main class.&nbsp; However, 
+you can add and instance as many classes as needed. <br>
+　</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: green">
+Q</span><span lang="EN-US" style="font-size: 12.0pt">: </span><font size="3">Can 
+I use shortcut key when submitting?</font></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: red">A</span><span lang="EN-US" style="font-size: 12.0pt">: </span>
+<span style="font-size: 12.0pt">Here are shortcut keys defined in the submit 
+page</span></p>
+<p class="MsoNormal"><font size="3"><font color="#FF00FF"><b>ALT+s</b> </font>&nbsp;&nbsp; 
+:Submit button</font></p>
+<p class="MsoNormal"><font size="3"><font color="#FF00FF"><b>ALT+u&nbsp; </b>
+</font>&nbsp; :User id field , if you haven't login.</font></p>
+<p class="MsoNormal"><font size="3"><b><font color="#FF00FF">ALT+l </font>&nbsp;</b>&nbsp; 
+:Language Option</font></p>
+<p class="MsoNormal"><font size="3"><b><font color="#FF00FF">ALT+p </font>&nbsp;</b>&nbsp; 
+:Problem Id filed</font></p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: green">
+Q</span><span lang="EN-US" style="font-size: 12.0pt">: What is the meaning of 
+the judge's replies?</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: red">A</span><span lang="EN-US" style="font-size: 12.0pt">: 
+Here is a list of the judge's replies and their meaning:</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Waiting</span><span lang="EN-US" style="font-size: 12.0pt">: The judge is so 
+busy that it can't judge your submit at the moment, usually you just need to 
+wait a minute and your submit will be judged.</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Accepted</span><span lang="EN-US" style="font-size: 12.0pt">: OK! Your program 
+is correct!</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Presentation Error</span><span lang="EN-US" style="font-size: 12.0pt">: Your 
+output format is not exactly the same as the judge's output, although your 
+answer to the problem is correct. Check your output for spaces, blank lines, etc 
+against the problem output specification.</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Wrong Answer</span><span lang="EN-US" style="font-size: 12.0pt">: Correct 
+solution not reached for the inputs. The inputs and outputs that we use to test 
+the programs are not public (it is recommendable to get accustomed to a true 
+contest dynamic ;-).</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Runtime Error</span><span lang="EN-US" style="font-size: 12.0pt">: Your program 
+failed during the execution (</span><span lang="EN-US">illegal file access,
+</span><span lang="EN-US" style="font-size: 12.0pt">stack overflow, pointer 
+reference out of range, floating point exception, divided by zero...).</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Time Limit Exceeded</span><span lang="EN-US" style="font-size: 12.0pt">: Your 
+program tried to run during too much time.</span></p>
+<blockquote>
+	<p class="MsoNormal"><span lang="en-us"><font size="3">Now each problem have 
+	two time limit--TOTAL TIME LIMIT and CASE TIME LIMIT. When JudgeOnline run 
+	your program ,it redirect your program's standard input to input file, then 
+	you can just read from standard input. And one problem may have several 
+	input files, when your program finished one input file and produce the 
+	correct output,&nbsp; JudgeOnline then restart your program to deal with 
+	next input file. Each input file's format is exactly as the problem's input 
+	specification. Case time limit is the maximum time your program is allowed 
+	to use for each input file, and TOTAL TIME LIMIT is the maximum time for you 
+	to pass all input file. If your program exceed any one of this two time 
+	limit, you will receive time limit exceed.</font></span></p>
+	<p class="MsoNormal"><span lang="en-us"><font size="3">As most problems only 
+	have one or two input file (of course, also one or two output file), then 
+	the CASE TIME LIMIT is trivial then it will be set equal to TOTAL TIME LIMIT 
+	and the problem description will not display CASE TIME LIMIT.</font></span></p>
+	<p class="MsoNormal"><span lang="en-us"><font size="3">So when you got time 
+	limit exceed, but you find the time your program used is much less than 
+	TOTAL TIME LIMIT----your program must exceed CASE TIME LIMIT.</font></span></p>
+</blockquote>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Memory Limit Exceeded</span><span lang="EN-US" style="font-size: 12.0pt">: Your 
+program tried to use more memory than the judge default settings. </span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Output Limit Exceeded</span><span lang="EN-US" style="font-size: 12.0pt">: Your 
+program tried to write too much information. This usually occurs if it goes into 
+a infinite loop. Currently the output limit is 2*answer file’s size.</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+Compile Error</span><span lang="EN-US" style="font-size: 12.0pt">: The compiler 
+could not compile your program. Of course, warning messages are not error 
+messages. Click the link at the judge reply to see the actual error message.</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt; color: blue">
+No such problem</span><span lang="EN-US" style="font-size: 12.0pt">: Either you 
+have submitted a wrong problem id or the problem is unavailable.</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12.0pt">&nbsp;</span></p>
+
+
+<div >
+<pre>
+acm-Association for Computing Machinery , 即美国计算机协会.
+icpc-International Collegiate Programming Contest , 即国际大学生程序设计竞赛.
+
+ACM国际大学生程序设计竞赛(英文全称:ACM International Collegiate Programming Contest（ACM-ICPC或ICPC）是由美国计算机协会（ACM）主办的，一项旨在展示大学生创新能力、团队精神和在压力下编写程序、分析和解决问题能力的年度竞赛。经过近30多年的发展，ACM国际大学生程序设计竞赛已经发展成为最具影响力的大学生计算机竞赛。
+
+
+官方网站：http://icpc.baylor.edu/
+ 
+
+竞赛的历史可以上溯到1970年，当时在美国德克萨斯A&M大学举办了首届比赛。当时的主办方是the Alpha Chapter of the UPE Computer Science Honor Society。作为一种全新的发现和培养计算机科学顶尖学生的方式，竞赛很快得到美国和加拿大各大学的积极响应。1977年，在ACM计算机科学会议期间举办了首次总决赛，并演变成为目前的一年一届的多国参与的国际性比赛。迄今已经举办了29届。 
+
+最初几届比赛的参赛队伍主要来自美国和加拿大，后来逐渐发展成为一项世界范围内的竞赛。特别是自1997年IBM开始赞助赛事之后，赛事规模增长迅速。1997年，总共有来自560所大学的840支队伍参加比赛。而到了2004年，这一数字迅速增加到840所大学的4109支队伍并以每年10-20%的速度在增长。 
+
+1980年代，ACM将竞赛的总部设在位于美国德克萨斯州的贝勒大学。 
+
+在赛事的早期，冠军多为美国和加拿大的大学获得。而进入1990年代后期以来， 俄罗斯和其它一些东欧国家的大学连夺数次冠军。来自中国大陆的上海交通大学代表队则在2002年美国夏威夷的第26届和2005年上海的第29届全球总决赛上两夺冠军。这也是目前为止亚洲大学在该竞赛上取得的最好成绩。赛事的竞争格局已经由最初的北美大学一枝独秀演变成目前的亚欧对抗的局面。 
+
+ACM-ICPC以团队的形式代表各学校参赛，每队由3名队员组成。每位队员必须是在校学生，有一定的年龄限制，并且最多可以参加2次全球总决赛和5次区域选拔赛。 
+
+比赛期间，每队使用1台电脑需要在5个小时内使用C、C++、Pascal或Java中的一种编写程序解决7到10个问题。程序完成之后提交裁判运行，运行的结果会判定为正确或错误两种并及时通知参赛队。而且有趣的是每队在正确完成一题后，组织者将在其位置上升起一只代表该题颜色的气球。 
+
+最后的获胜者为正确解答题目最多且总用时最少的队伍。每道试题用时将从竞赛开始到试题解答被判定为正确为止，其间每一次提交运行结果被判错误的话将被加罚20分钟时间，未正确解答的试题不记时。例如：A、B两队都正确完成两道题目，其中A队提交这两题的时间分别是比赛开始后1:00和2:45，B队为1:20和2: 00，但B队有一题提交了2次。这样A队的总用时为1:00+2:45=3:45而B队为1:20+2:00+0:20=3:40，所以B队以总用时少而获胜。
+
+ acm竟赛规则：
+1,参赛队伍最多由三名参赛队员组成。
+2,竞赛中至少命题6题，至多命题10题，试题描述为英文，比赛时间为5个小时。
+3,竞赛可以使用的语言：C++、C、Java和Pascal。但final赛只有C/C++;
+4,重点考察选手的算法和程序设计能力，不考察任何Windows编程知识；
+5,选手可携带任何非电子类资料，包括书籍和打印出来的程序等；
+6,评委负责将结果（正确或出错的类型）通过网络尽快返回给选手，除此之外不提供任何额外帮助；
+
+返回结果：
+1,Accepted. ---通过！(AC)
+2,Wrong Anwser.   ---答案错。(WA)
+3,RunTime Error.    ---程序运行出错，意外终止等。(RTE)
+4,Time Limit Exceeded.   ---超时。程序没在规定时间内出答案。(TLE)
+5,Presentation Error.   ---格式错。程序没按规定的格式输出答案。(PE)
+6,Memory Limit Exceeded. ---超内存。程序没在规定空间内出答案。(MLE)
+7,Compile Error. ---编译错。程序编译不过。(CE
+</pre>
+</div>
+</body>
+
+</html>
